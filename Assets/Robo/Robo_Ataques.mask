@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Robo_Ataques
+  m_Mask: 00000000010000000100000000000000000000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature
+    m_Weight: 1
+  - m_Path: Armature/Base
+    m_Weight: 1
+  - m_Path: Armature/Base/Coxa.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Coxa.L/Canela.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Coxa.L/Canela.L/Calcanhar.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Coxa.L/Canela.L/Calcanhar.L/Pe.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Coxa.L/Canela.L/Calcanhar.L/Pe.L/Dedao.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Coxa.R
+    m_Weight: 1
+  - m_Path: Armature/Base/Coxa.R/Canela.R
+    m_Weight: 1
+  - m_Path: Armature/Base/Coxa.R/Canela.R/Calcanhar.R
+    m_Weight: 1
+  - m_Path: Armature/Base/Coxa.R/Canela.R/Calcanhar.R/Pe.R
+    m_Weight: 1
+  - m_Path: Armature/Base/Coxa.R/Canela.R/Calcanhar.R/Pe.R/Dedao.R
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Bone.005
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Bone.005/Cabeca
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Bone.005/Cabeca/Chapeu
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Cotovelo.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Cotovelo.L/Braco.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Cotovelo.L/Braco.L/AnteBraco.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Cotovelo.L/Braco.L/AnteBraco.L/LaminaE.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Cotovelo.L/Braco.L/AnteBraco.L/LaminaI.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Cotovelo.L/Braco.L/AnteBraco.L/Pulso.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Cotovelo.L/Braco.L/AnteBraco.L/Pulso.L/Anular1.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Cotovelo.L/Braco.L/AnteBraco.L/Pulso.L/Anular1.L/Anular2.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Cotovelo.L/Braco.L/AnteBraco.L/Pulso.L/Anular1.L/Anular2.L/Anular3.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Cotovelo.L/Braco.L/AnteBraco.L/Pulso.L/Indicador1.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Cotovelo.L/Braco.L/AnteBraco.L/Pulso.L/Indicador1.L/Indicador2.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Cotovelo.L/Braco.L/AnteBraco.L/Pulso.L/Indicador1.L/Indicador2.L/Indicador3.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Cotovelo.L/Braco.L/AnteBraco.L/Pulso.L/Medio1.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Cotovelo.L/Braco.L/AnteBraco.L/Pulso.L/Medio1.L/Medio2.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Cotovelo.L/Braco.L/AnteBraco.L/Pulso.L/Medio1.L/Medio2.L/Medio3.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Cotovelo.L/Braco.L/AnteBraco.L/Pulso.L/Mindinho1.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Cotovelo.L/Braco.L/AnteBraco.L/Pulso.L/Mindinho1.L/Mindinho2.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Cotovelo.L/Braco.L/AnteBraco.L/Pulso.L/Mindinho1.L/Mindinho2.L/Mindinho3.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Cotovelo.L/Braco.L/AnteBraco.L/Pulso.L/Polegar1.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Cotovelo.L/Braco.L/AnteBraco.L/Pulso.L/Polegar1.L/Polegar2.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Cotovelo.L/Braco.L/AnteBraco.L/Pulso.L/Polegar1.L/Polegar2.L/Polegar3.L
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Cotovelo.R
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Cotovelo.R/Braco.R
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Cotovelo.R/Braco.R/AnteBraco.R
+    m_Weight: 1
+  - m_Path: Armature/Base/Espinha/Peito/Garganta/Cotovelo.R/Braco.R/AnteBraco.R/Pulso.R
+    m_Weight: 1
+  - m_Path: Armature/CTRL_Braco.L
+    m_Weight: 1
+  - m_Path: Armature/CTRL_Braco.R
+    m_Weight: 1
+  - m_Path: Armature/CTRL_Cabeca
+    m_Weight: 1
+  - m_Path: Armature/CTRL_Espinha
+    m_Weight: 1
+  - m_Path: Armature/CTRL_Joelho.L
+    m_Weight: 1
+  - m_Path: Armature/CTRL_Joelho.R
+    m_Weight: 1
+  - m_Path: Armature/CTRL_Pe.L
+    m_Weight: 1
+  - m_Path: Armature/CTRL_Pe.R
+    m_Weight: 1
+  - m_Path: Armature/CTRL_Pulso.L
+    m_Weight: 1
+  - m_Path: Armature/CTRL_Pulso.R
+    m_Weight: 1
+  - m_Path: Armature/CTRL_Quadril
+    m_Weight: 1
+  - m_Path: Armature/CTRL_Quadril/CTRL_Base
+    m_Weight: 1
+  - m_Path: Robo
+    m_Weight: 1
