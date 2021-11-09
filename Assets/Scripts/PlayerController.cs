@@ -7,13 +7,14 @@ public class PlayerController : MonoBehaviour
     private CapsuleCollider _capsule;
     private Vector3 _capsuleCenter;
     private float _capsuleHeight;
+    public Animator animator;
     // Parameters
     private const float HALF = 0.5f;
-    private float _speed = 7f;
-    private float _jumpForce = 5f;
+    private float _speed = 8f;
+    private float _jumpForce = 7f;
     private float _wallSlidingSpeed = -3f;
     private float _groundCheckDistance = 1.1f;
-    private float _wallCheckDistance = .8f;
+    private float _wallCheckDistance = 1f;
     // Inputs
     private float _horizontal;
     // Checks
@@ -29,6 +30,7 @@ public class PlayerController : MonoBehaviour
     {
         _rigidbody = GetComponent<Rigidbody>();
         _capsule = GetComponent<CapsuleCollider>();
+        animator = GetComponent<Animator>();
         _capsuleHeight = _capsule.height;
         _capsuleCenter = _capsule.center;
         _rigidbody.constraints = RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | 
@@ -46,12 +48,24 @@ public class PlayerController : MonoBehaviour
         _isAgainstWall = Physics.Raycast(transform.position, Vector3.right, _wallCheckDistance) || 
                          Physics.Raycast(transform.position, Vector3.left, _wallCheckDistance) ? true : false;
         // Basic Moves
-        //_rigidbody.velocity = new Vector3(_horizontal * _speed, _rigidbody.velocity.y, 0);
-        // ver transform.translate
-        transform.position += new Vector3( _horizontal * _speed * Time.deltaTime, _rigidbody.velocity.y * Time.deltaTime, 0);
+        _rigidbody.velocity = new Vector3(_horizontal * _speed, _rigidbody.velocity.y, 0);
+        transform.rotation = _horizontal >= 0 ? Quaternion.Euler(0, 0, 0) : Quaternion.Euler(0, 180, 0);
+        if (_horizontal != 0)
+        {
+            animator.SetBool("Moving", true);
+            animator.SetBool("IsRunning", true);
+        }
+        else
+        {
+            animator.SetBool("Moving", false);
+            animator.SetBool("IsRunning", false);
+        }
+
         if (_isJumping && _isGrounded)
         {
             _rigidbody.AddForce(_jumpForce * Vector3.up, ForceMode.Impulse);
+            animator.SetBool("Moving", true);
+            animator.SetBool("isJumping", true);
             _isJumping = false;
         }
         // Special Moves
@@ -65,7 +79,8 @@ public class PlayerController : MonoBehaviour
         _isWallJumping = (_isWallSliding && isJumping) ? true : false;
         // Special Moves
         if (_isWallSliding) _rigidbody.velocity = new Vector3(_rigidbody.velocity.x, _wallSlidingSpeed, 0);
-        if (_isWallJumping) _rigidbody.AddForce(_jumpForce * (Vector3.up + horizontal * Vector3.left).normalized, ForceMode.Impulse);
+        //if (_isWallJumping) _rigidbody.AddForce(_jumpForce * (Vector3.up + horizontal * Vector3.left).normalized, ForceMode.Impulse);
+        if (_isWallJumping) _rigidbody.velocity = new Vector3(_jumpForce * -horizontal, _jumpForce, 0);
         ScaleCapsuleForCrouching(isCrouching);
         PreventStandingInLowHeadroom();
     }
