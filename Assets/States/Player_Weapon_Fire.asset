@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78d4881ae342842419567e5860241a9a, type: 3}
+  m_Name: Player_Weapon_Fire
+  m_EditorClassIdentifier: 
+  fireProjectile: {fileID: 1461909691975414279, guid: 2689d4454e8c3ed4aae1dadddb98af67,
+    type: 3}
+  _firePosition: {fileID: 7755784421021944616, guid: 3a2e50c9c1c906946bb9f585e096827d,
+    type: 3}
+  fireBallSpeed: 20

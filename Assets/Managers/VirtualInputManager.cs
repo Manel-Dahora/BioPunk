@@ -7,5 +7,7 @@ namespace BioPunk
         public bool MoveRight;
         public bool MoveLeft;
         public bool Jump;
+        public bool Fire;
+        public bool Crouch;
     }
 }

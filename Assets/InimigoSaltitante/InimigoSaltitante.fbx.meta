@@ -1,0 +1,840 @@
+fileFormatVersion: 2
+guid: 5b82dc61d8bc84648998f7a29f2b35e7
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 4781951162920444690
+    second: Armature|ArmatureAction
+  - first:
+      74: 5508062484833401239
+    second: Armature|PoseLib
+  - first:
+      74: -3100369314251171874
+    second: Idle
+  - first:
+      74: -1055766231766805323
+    second: Andar
+  - first:
+      74: 6419343376957995858
+    second: Pulo
+  - first:
+      74: -3123187602117502106
+    second: Ascensao
+  - first:
+      74: 6233896968798123594
+    second: Comecando_Cair
+  - first:
+      74: 2339823597976733014
+    second: Caindo
+  - first:
+      74: 4072419818721791481
+    second: Aterrissagem
+  - first:
+      74: -7570706721985894214
+    second: Dano
+  - first:
+      74: 6181329805352759497
+    second: Morte
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|ArmatureAction
+      takeName: Armature|ArmatureAction
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 114
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Armature|ArmatureAction
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Andar
+      takeName: Armature|ArmatureAction
+      internalID: 0
+      firstFrame: 21
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Pulo
+      takeName: Armature|ArmatureAction
+      internalID: 0
+      firstFrame: 48
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ascensao
+      takeName: Armature|ArmatureAction
+      internalID: 0
+      firstFrame: 55
+      lastFrame: 64
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Comecando_Cair
+      takeName: Armature|ArmatureAction
+      internalID: 0
+      firstFrame: 65
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Caindo
+      takeName: Armature|ArmatureAction
+      internalID: 0
+      firstFrame: 70
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Aterrissagem
+      takeName: Armature|ArmatureAction
+      internalID: 0
+      firstFrame: 80
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dano
+      takeName: Armature|ArmatureAction
+      internalID: 0
+      firstFrame: 90
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Morte
+      takeName: Armature|ArmatureAction
+      internalID: 0
+      firstFrame: 100
+      lastFrame: 114
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.33
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: InimigoSaltitante(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: InimigoSaltitante(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000053385094, y: 0.7071067, z: 0.7071068, w: -0.000000053385083}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Base
+      parentName: Armature
+      position: {x: -3.0775384e-19, y: 0.0000014253528, z: 0.00005682363}
+      rotation: {x: 0.6374867, y: -0.00000009184616, z: -0.000000075994386, w: 0.7704614}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Espinha
+      parentName: Base
+      position: {x: -2.7528744e-19, y: 0.000008563344, z: 0}
+      rotation: {x: 0.13544811, y: -0.00000012001003, z: -0.0000000042290895, w: 0.99078447}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Peito
+      parentName: Espinha
+      position: {x: -9.308878e-20, y: 0.000013464054, z: 1.2293458e-13}
+      rotation: {x: 0.08197748, y: 0.000000004703528, z: 0.000000031397338, w: 0.9966342}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: Garganta
+      parentName: Peito
+      position: {x: 1.3073775e-18, y: 0.000009080697, z: -1.0756774e-12}
+      rotation: {x: -0.10539305, y: 0.00000023709075, z: 0.000000025127706, w: 0.99443066}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.005
+      parentName: Garganta
+      position: {x: -6.9880214e-26, y: 0.000004734165, z: -3.0733645e-14}
+      rotation: {x: -0.038554285, y: -0.00000023824131, z: 0.000000009192065, w: 0.99925655}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cabeca
+      parentName: Bone.005
+      position: {x: 2.1007891e-20, y: 0.000006984353, z: 3.0733643e-13}
+      rotation: {x: -0.69254744, y: -0.00000008179112, z: 0.00000032459837, w: 0.72137237}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: Ombro.L
+      parentName: Garganta
+      position: {x: 0.0000049289256, y: 0.0000021527617, z: 0.000002251548}
+      rotation: {x: -0.008083306, y: -0.012440881, z: -0.8002639, w: 0.5994645}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Braco.L
+      parentName: Ombro.L
+      position: {x: -1.2716047e-12, y: 0.000006893988, z: -2.2089813e-13}
+      rotation: {x: -0.14201702, y: 0.98973686, z: 0.015817486, w: -0.0013807481}
+      scale: {x: 0.9999998, y: 1.0000005, z: 0.99999964}
+    - name: AnteBraco.L
+      parentName: Braco.L
+      position: {x: 8.675068e-12, y: 0.000017960449, z: 1.5366822e-13}
+      rotation: {x: -0.00036711802, y: 0.99932116, z: 0.036754146, w: -0.002488583}
+      scale: {x: 1.0000001, y: 0.9999996, z: 0.9999997}
+    - name: Pulso.L
+      parentName: AnteBraco.L
+      position: {x: 2.349203e-12, y: 0.000014395718, z: 1.8440189e-13}
+      rotation: {x: 0.020592825, y: -0.0032149018, z: 0.00029799173, w: 0.99978274}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Indicador1.L
+      parentName: Pulso.L
+      position: {x: -0.000000018974168, y: 0.0000072419, z: -0.0000023998405}
+      rotation: {x: 0.000015693866, y: -1.633298e-10, z: -0.000000009431631, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Indicador2.L
+      parentName: Indicador1.L
+      position: {x: -1.1848059e-12, y: 0.0000017311602, z: -7.683411e-15}
+      rotation: {x: -0.0020429213, y: -1.0097129e-10, z: 0.0000011941862, w: 0.9999979}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Indicador3.L
+      parentName: Indicador2.L
+      position: {x: 5.3625724e-12, y: 0.0000016073102, z: -3.8417054e-14}
+      rotation: {x: 0.004384964, y: 3.0402177e-11, z: -0.0000025627469, w: 0.9999904}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Medio1.L
+      parentName: Pulso.L
+      position: {x: -0.000000017987649, y: 0.0000075061866, z: -0.0000007227853}
+      rotation: {x: 0.0010319649, y: -2.782546e-10, z: -0.0000006033572, w: 0.99999946}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Medio2.L
+      parentName: Medio1.L
+      position: {x: -4.1831517e-12, y: 0.0000022396741, z: 3.0733645e-14}
+      rotation: {x: -0.0035619624, y: -3.608366e-10, z: 0.000002081952, w: 0.9999937}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Medio3.L
+      parentName: Medio2.L
+      position: {x: -8.823408e-12, y: 0.0000020137186, z: 0}
+      rotation: {x: 0.0043728794, y: -1.6646985e-10, z: -0.000002555684, w: 0.99999046}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Anular1.L
+      parentName: Pulso.L
+      position: {x: -0.00000001703385, y: 0.0000073256206, z: 0.0000009047477}
+      rotation: {x: 0.00012319142, y: -3.1746464e-10, z: -0.000000071957466, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: Anular2.L
+      parentName: Anular1.L
+      position: {x: 3.0882666e-12, y: 0.0000017885161, z: 1.1525118e-13}
+      rotation: {x: -0.0012525272, y: -2.2989942e-10, z: 0.0000007319496, w: 0.9999992}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Anular3.L
+      parentName: Anular2.L
+      position: {x: 2.0012585e-12, y: 0.0000016451776, z: -6.146729e-14}
+      rotation: {x: 0.0005768622, y: -5.0701877e-11, z: -0.00000033714022, w: 0.9999998}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Mindinho1.L
+      parentName: Pulso.L
+      position: {x: -0.00000001612693, y: 0.0000071875006, z: 0.000002455435}
+      rotation: {x: -0.0004464387, y: -2.7981253e-10, z: 0.00000026083308, w: 0.99999994}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Mindinho2.L
+      parentName: Mindinho1.L
+      position: {x: -3.596197e-13, y: 0.00000086162544, z: 5.954646e-14}
+      rotation: {x: 0.0002518875, y: 0.0000002381313, z: -0.00000014710606, w: 1}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+    - name: Mindinho3.L
+      parentName: Mindinho2.L
+      position: {x: -2.051381e-12, y: 0.0000011999991, z: 4.379545e-13}
+      rotation: {x: -0.00013020758, y: -0.00000023832862, z: 0.00000007606759, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Polegar1.L
+      parentName: Pulso.L
+      position: {x: 0.0000009850704, y: 0.000002023151, z: -0.000002731075}
+      rotation: {x: -0.35762516, y: 0.005466741, z: -0.019033445, w: 0.93365526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Polegar2.L
+      parentName: Polegar1.L
+      position: {x: -3.1655657e-12, y: 0.0000019690694, z: -3.0733643e-13}
+      rotation: {x: 0.03503171, y: -0.002782713, z: 0.015297303, w: 0.99926525}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: Polegar3.L
+      parentName: Polegar2.L
+      position: {x: 1.8519422e-12, y: 0.0000018221209, z: -2.1513548e-12}
+      rotation: {x: 0.00081669516, y: -0.00000017962894, z: -0.0000059996273, w: 0.9999997}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Ombro.R
+      parentName: Garganta
+      position: {x: -0.0000049289256, y: 0.0000021527617, z: 0.000002251548}
+      rotation: {x: -0.008083306, y: 0.012440881, z: 0.8002639, w: 0.5994645}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Braco.R
+      parentName: Ombro.R
+      position: {x: 1.2716047e-12, y: 0.000006893988, z: -2.2089813e-13}
+      rotation: {x: 0.14201702, y: 0.98973686, z: 0.015818201, w: 0.0013808508}
+      scale: {x: 0.9999998, y: 1.0000005, z: 0.9999995}
+    - name: AnteBraco.R
+      parentName: Braco.R
+      position: {x: -1.30557965e-14, y: 0.000017960456, z: 2.1513555e-13}
+      rotation: {x: 0.0003671339, y: 0.9993211, z: 0.036755748, w: 0.0024885845}
+      scale: {x: 1.0000001, y: 0.99999964, z: 0.9999997}
+    - name: Pulso.R
+      parentName: AnteBraco.R
+      position: {x: -2.232031e-12, y: 0.000014395717, z: 6.1467286e-13}
+      rotation: {x: 0.010773187, y: 0.0032167984, z: -0.00022312424, w: 0.9999368}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Indicador1.R
+      parentName: Pulso.R
+      position: {x: 0.00000001896264, y: 0.0000072419107, z: -0.0000023998407}
+      rotation: {x: 0.0000156934, y: 4.7177195e-10, z: 0.000000009433932, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Indicador2.R
+      parentName: Indicador1.R
+      position: {x: -1.0371284e-11, y: 0.0000017311593, z: 7.683411e-15}
+      rotation: {x: -0.002042921, y: 3.865077e-10, z: -0.0000011941939, w: 0.9999979}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: Indicador3.R
+      parentName: Indicador2.R
+      position: {x: -8.927345e-12, y: 0.0000016073122, z: 8.4517523e-14}
+      rotation: {x: 0.004384963, y: -3.149014e-11, z: 0.0000025627407, w: 0.9999904}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Medio1.R
+      parentName: Pulso.R
+      position: {x: 0.000000017983906, y: 0.0000075061926, z: -0.0000007227853}
+      rotation: {x: 0.0010319649, y: 3.6394018e-10, z: 0.00000060335753, w: 0.99999946}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Medio2.R
+      parentName: Medio1.R
+      position: {x: 1.6076094e-11, y: 0.0000022396732, z: 1.2293458e-13}
+      rotation: {x: -0.0035619643, y: 1.3082742e-10, z: -0.000002081954, w: 0.9999937}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Medio3.R
+      parentName: Medio2.R
+      position: {x: -2.6599007e-12, y: 0.0000020137181, z: -1.5366822e-13}
+      rotation: {x: 0.0043728803, y: 6.4092565e-11, z: 0.0000025556808, w: 0.99999046}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Anular1.R
+      parentName: Pulso.R
+      position: {x: 0.000000017030048, y: 0.0000073256265, z: 0.0000009047481}
+      rotation: {x: 0.00012319203, y: 5.9822014e-10, z: 0.00000007195947, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Anular2.R
+      parentName: Anular1.R
+      position: {x: -6.928037e-12, y: 0.0000017885161, z: -9.2200946e-14}
+      rotation: {x: -0.0012525269, y: 3.0487995e-10, z: -0.00000073194013, w: 0.9999992}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Anular3.R
+      parentName: Anular2.R
+      position: {x: 2.0894076e-12, y: 0.0000016451771, z: -4.610047e-13}
+      rotation: {x: 0.00057686114, y: 9.9049685e-11, z: 0.00000033714923, w: 0.9999998}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Mindinho1.R
+      parentName: Pulso.R
+      position: {x: 0.000000016123058, y: 0.000007187514, z: 0.000002455435}
+      rotation: {x: -0.00044643914, y: 5.4137683e-10, z: -0.00000026082907, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mindinho2.R
+      parentName: Mindinho1.R
+      position: {x: -3.4897094e-12, y: 0.0000008616279, z: 3.0733643e-13}
+      rotation: {x: 0.0002518879, y: -0.00000023814663, z: 0.00000014710005, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Mindinho3.R
+      parentName: Mindinho2.R
+      position: {x: 6.441101e-12, y: 0.0000012000012, z: 4.302711e-13}
+      rotation: {x: -0.00013020642, y: 0.0000002384996, z: -0.0000000760659, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: Polegar1.R
+      parentName: Pulso.R
+      position: {x: -0.0000009850818, y: 0.0000020231557, z: -0.000002731075}
+      rotation: {x: -0.35762233, y: -0.005466093, z: 0.019039612, w: 0.9336562}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Polegar2.R
+      parentName: Polegar1.R
+      position: {x: 2.1513555e-13, y: 0.0000019690626, z: -9.834766e-13}
+      rotation: {x: 0.035029724, y: 0.0027826354, z: -0.015299678, w: 0.9992653}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: Polegar3.R
+      parentName: Polegar2.R
+      position: {x: -1.8721118e-12, y: 0.0000018221184, z: -9.373762e-13}
+      rotation: {x: 0.0008167139, y: 0.00000017959982, z: 0.000005999817, w: 0.9999997}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: Coxa.L
+      parentName: Base
+      position: {x: 0.0000062911886, y: -0.0000015901757, z: 0.00000076496207}
+      rotation: {x: 0.7028505, y: -0.051256288, z: 0.7064955, w: -0.065100275}
+      scale: {x: 1, y: 0.9999994, z: 1.000002}
+    - name: Junta.L
+      parentName: Coxa.L
+      position: {x: -1.2293458e-13, y: 0.000023128872, z: 4.2258762e-14}
+      rotation: {x: 0.45130804, y: 0.53876054, z: -0.45157856, w: 0.5496681}
+      scale: {x: 1, y: 0.99999964, z: 1.0000004}
+    - name: Canela.L
+      parentName: Junta.L
+      position: {x: -2.9965296e-13, y: 0.000014547527, z: 2.4368723e-12}
+      rotation: {x: -0.0025831237, y: 0.70710236, z: -0.70710176, w: -0.002583069}
+      scale: {x: 1.0000007, y: 0.99999994, z: 0.99999994}
+    - name: Pistao.L
+      parentName: Canela.L
+      position: {x: 0.000000024108216, y: 0.000019748766, z: 6.2909855e-10}
+      rotation: {x: -0.080993794, y: 0.0047166534, z: 0.006268943, w: 0.9966838}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Pe.L
+      parentName: Pistao.L
+      position: {x: 1.5414845e-13, y: 0.0000053802946, z: 1.485442e-12}
+      rotation: {x: -0.000011725048, y: -0.00079185294, z: 0.00039222976, w: 0.99999964}
+      scale: {x: 1.0000007, y: 0.99999994, z: 0.9999999}
+    - name: DedoT1.L
+      parentName: Pe.L
+      position: {x: 6.9993187e-13, y: 0.000003464248, z: -0.000005704593}
+      rotation: {x: -0.707105, y: 0.0000024754322, z: -0.0000024754195, w: 0.70710856}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DedoT2.L
+      parentName: DedoT1.L
+      position: {x: 4.220119e-13, y: 0.0000031854609, z: 3.5400715e-14}
+      rotation: {x: 0.0007035239, y: 0.9999997, z: -0.000012854776, w: 0.00041318053}
+      scale: {x: 1.0000007, y: 0.9999999, z: 0.99999994}
+    - name: DedoI1.L
+      parentName: Pe.L
+      position: {x: -0.0000017383309, y: 0.000003464248, z: 0.0000052291766}
+      rotation: {x: -0.12269687, y: 0.6963727, z: 0.6963784, w: 0.12275045}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: DedoI2.L
+      parentName: DedoI1.L
+      position: {x: 1.7152616e-13, y: 0.000003042678, z: 1.5606929e-15}
+      rotation: {x: 0.0008012468, y: 0.9999996, z: -0.0001257282, w: -0.00041115977}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.9999999}
+    - name: DedoE1.L
+      parentName: Pe.L
+      position: {x: 0.0000018288823, y: 0.0000034642471, z: 0.0000052376654}
+      rotation: {x: 0.12001628, y: 0.6968586, z: 0.69684535, w: -0.119961835}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DedoE2.L
+      parentName: DedoE1.L
+      position: {x: 4.1069473e-13, y: 0.000002990053, z: 1.436138e-14}
+      rotation: {x: -0.002214788, y: 0.9999975, z: 0.00014589654, w: -0.00042363364}
+      scale: {x: 1.000001, y: 0.9999996, z: 0.9999999}
+    - name: Coxa.R
+      parentName: Base
+      position: {x: -0.0000062911886, y: -0.0000015901799, z: 0.000000764964}
+      rotation: {x: -0.70285034, y: -0.051256374, z: 0.7064957, w: 0.06510027}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.000001}
+    - name: Junta.R
+      parentName: Coxa.R
+      position: {x: 3.8417057e-15, y: 0.000023128872, z: 8.04237e-13}
+      rotation: {x: 0.45130602, y: -0.53875923, z: 0.45158443, w: 0.5496662}
+      scale: {x: 1, y: 0.99999946, z: 1}
+    - name: Canela.R
+      parentName: Junta.R
+      position: {x: 9.6042635e-15, y: 0.000014547527, z: 2.2414854e-12}
+      rotation: {x: 0.0025830262, y: 0.7071022, z: -0.70710194, w: 0.0025829782}
+      scale: {x: 1.0000004, y: 0.99999994, z: 1}
+    - name: Pistao.R
+      parentName: Canela.R
+      position: {x: -0.000000024108983, y: 0.000019748764, z: 6.288565e-10}
+      rotation: {x: -0.08091736, y: -0.0047136117, z: -0.0062648286, w: 0.99669003}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Pe.R
+      parentName: Pistao.R
+      position: {x: -3.745662e-14, y: 0.0000053802946, z: 5.042239e-15}
+      rotation: {x: -0.000011620261, y: 0.00079189154, z: -0.00039229, w: 0.99999964}
+      scale: {x: 1.0000004, y: 0.99999994, z: 1}
+    - name: DedoT1.R
+      parentName: Pe.R
+      position: {x: 3.3906065e-13, y: 0.0000034642471, z: -0.000005704593}
+      rotation: {x: -0.70710504, y: -0.0000025597255, z: 0.0000025597133, w: 0.70710856}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DedoT2.R
+      parentName: DedoT1.R
+      position: {x: -8.288025e-14, y: 0.000003185456, z: -4.7687426e-14}
+      rotation: {x: 0.0007034215, y: 0.9999997, z: -0.000012885691, w: 0.00041424576}
+      scale: {x: 0.99999887, y: 1.0000001, z: 1.0000004}
+    - name: DedoI1.R
+      parentName: Pe.R
+      position: {x: 0.0000017383314, y: 0.000003464248, z: 0.0000052291734}
+      rotation: {x: 0.12269702, y: 0.69637275, z: 0.69637835, w: -0.12275048}
+      scale: {x: 0.99999994, y: 0.9999997, z: 0.99999994}
+    - name: DedoI2.R
+      parentName: DedoI1.R
+      position: {x: -1.3998213e-13, y: 0.0000030426786, z: 5.7100354e-14}
+      rotation: {x: -0.0008012319, y: 0.9999996, z: -0.00012582859, w: 0.0004110267}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1}
+    - name: DedoE1.R
+      parentName: Pe.R
+      position: {x: -0.0000018288823, y: 0.000003464248, z: 0.0000052376636}
+      rotation: {x: -0.12001643, y: 0.6968586, z: 0.69684535, w: 0.119961865}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: DedoE2.R
+      parentName: DedoE1.R
+      position: {x: -2.3465173e-13, y: 0.0000029900523, z: -3.7201524e-14}
+      rotation: {x: 0.0021264309, y: 0.9999977, z: 0.00014070494, w: 0.00040563324}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1}
+    - name: CTRL_Pulso.L
+      parentName: Armature
+      position: {x: 0.0000438794, y: -0.0000026777263, z: 0.00008476078}
+      rotation: {x: 0.7070983, y: 0.0034722956, z: 0.0034722944, w: 0.70709825}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CTRL_Braco.L
+      parentName: Armature
+      position: {x: 0.000036016692, y: -0.000024441211, z: 0.00008465362}
+      rotation: {x: -0.70029366, y: 0.00000003061081, z: 0.7138549, w: 0.00000003120359}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CTRL_Cabeca
+      parentName: Armature
+      position: {x: -5.459392e-29, y: 0.000022143462, z: 0.00009634618}
+      rotation: {x: 5.5384006e-23, y: -0.00000023841854, z: 2.322974e-16, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: CTRL_Quadril
+      parentName: Armature
+      position: {x: -2.8530665e-22, y: 0.0000030285946, z: 0.000062415435}
+      rotation: {x: 1, y: 4.622913e-24, z: -0.0000000754979, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CTRL_Base
+      parentName: CTRL_Quadril
+      position: {x: 1.2701649e-12, y: 0.0000016032421, z: 0.000008411924}
+      rotation: {x: -0.7704614, y: -0.000000027865479, z: 0.0000001500144, w: 0.63748676}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CTRL_Espinha
+      parentName: Armature
+      position: {x: -0, y: -0.0000004900051, z: 0.00008936765}
+      rotation: {x: 1, y: 0.000000070725854, z: 0.00000018140764, w: -1.2768977e-14}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CTRL_Canela.L
+      parentName: Armature
+      position: {x: 0.0000067350034, y: -0.000014717294, z: 0.000022121461}
+      rotation: {x: 1, y: 8.510922e-15, z: 0.00000019470718, w: -0.00000004371139}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CTRL_Perna.L
+      parentName: CTRL_Canela.L
+      position: {x: 2.6233863e-12, y: -0.000037634723, z: -0.000007345031}
+      rotation: {x: 0.713345, y: 0.00000003063351, z: 0.70081306, w: -0.0000000311813}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: CTRL_Pe.L
+      parentName: CTRL_Canela.L
+      position: {x: -1.4046564e-11, y: 0, z: 0.000017784027}
+      rotation: {x: 0, y: -0.0000000317865, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CTRL_Pulso.R
+      parentName: Armature
+      position: {x: -0.0000438794, y: -0.0000026777263, z: 0.00008476078}
+      rotation: {x: 0.7070983, y: -0.0034722956, z: -0.0034722947, w: 0.70709825}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CTRL_Braco.R
+      parentName: Armature
+      position: {x: -0.000036016692, y: -0.000024441211, z: 0.00008465362}
+      rotation: {x: 0.70029366, y: -0.00000003061081, z: 0.7138549, w: 0.00000003120359}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CTRL_Canela.R
+      parentName: Armature
+      position: {x: -0.0000067350034, y: -0.000014717294, z: 0.000022121461}
+      rotation: {x: 1, y: -3.3001183e-15, z: -0.0000000754979, w: -0.00000004371139}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CTRL_Perna.R
+      parentName: CTRL_Canela.R
+      position: {x: -1.0071484e-12, y: -0.000037634723, z: -0.0000073450324}
+      rotation: {x: 0.7133451, y: -0.000000030633508, z: -0.70081294, w: -0.000000031181305}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: CTRL_Pe.R
+      parentName: CTRL_Canela.R
+      position: {x: 2.7872327e-12, y: 0, z: 0.000017784027}
+      rotation: {x: 0, y: 0.000000031786513, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Cube.001
+      parentName: InimigoSaltitante(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.1232336e-17, y: 0.0000000754979, z: 6.123234e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.0033
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

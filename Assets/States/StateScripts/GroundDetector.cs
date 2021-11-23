@@ -31,11 +31,7 @@ namespace BioPunk
             if (control.Rigidbody.velocity.y > -0.001f && control.Rigidbody.velocity.y <= 0f) return true;
             if (control.Rigidbody.velocity.y < 0f)
             {
-                foreach (var o in control._bottomSpheres)
-                {
-                    RaycastHit hit;
-                    if (Physics.Raycast(o.transform.position, Vector3.down, out hit, Distance)) return true;
-                }
+                // Implementar RayCastHit
             }
             return false;
         }
